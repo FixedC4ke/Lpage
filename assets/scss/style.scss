@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #87509c;
+    padding-top: 57px;
+    img{
+        padding-bottom: 12px;
+    }
+    nav{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            margin: 10px;
+            display: inline-block;
+            width: 77px;
+            height: 32px;
+            line-height: 32px;
+            font-weight: bold;
+            transition: background-color 0.1s;
+        }
+        .selected{
+            background-color: #643a79;
+            border-radius: 4px;
+        }
+        a:hover{
+            background-color: #75458d;
+            border-radius: 4px;
+        }
+    }
+}
+
+.hero-section{
+    background-color: #87509c;
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 145px;
+    .welcometext{
+        color:white;
+        font-weight: 700;
+        font-size: 42px;
+    }
+    .herobtn{
+        margin-top: 42px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+        background-color: #eb7d4b;
+        display: inline-block;
+        width: 293px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 3px;
+        box-shadow: 0 4px #c06b44;
+        transition: background-color 0.1s;
+        }
+    .herobtn:hover{
+        background-color: #eea27f;
+    }
+    .herobtn:active{
+        background-color: #c57652;
+        box-shadow: none;
+    }
+}
+
+.services-section{
+    background-color: #17c2a4;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    ul{
+        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li{
+        list-style: none;
+        margin: 45px;
+        flex: 1;
+    }
+}
+
+.headtext{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.desctext{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.separator{
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+}
+
+.team-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #e7f1f8;
+    text-align: center;
+    .teammembers{
+        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            list-style: none;
+            flex: 1;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+        .occupation{
+            color: #30bae7;
+            font-weight: bold;
+        }
+    }
+    .socialbtns{
+        display: inline-flex;
+        margin-left:-35px;
+        li{
+            margin: 5px;
+            transition: filter 0.2s;
+        }
+        li:hover{
+            filter: brightness(1.1);
+        }
+    }
+}
+
+.skills-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    text-align: center;
+    ul{
+        padding-top: 60px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li{
+        flex: 1;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
