@@ -44,7 +44,6 @@ header nav a:hover {
   text-align: center;
   padding-top: 105px;
   padding-bottom: 145px;
-  height: 350px;
 }
 .hero-section .welcometext {
   color: white;
@@ -73,7 +72,6 @@ header nav a:hover {
 .hero-section .herobtn:active {
   background-color: #c57652;
   box-shadow: none;
-  margin-top: 46px;
 }
 
 .services-section {
